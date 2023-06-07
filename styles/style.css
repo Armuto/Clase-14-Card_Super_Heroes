@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.descuento{
+    padding-left: 1rem;
+    background-color: #D1891C;
+    font-size: 1.5rem;
+}
+header{
+    padding: 1rem 0;
+    padding-left: 1rem;
+    background-color: #00669F;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+header h1{
+    font-size: 1.5rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#eclipse{
+    position: fixed;
+    border-radius: 50%;
+    background-color: #00669F;
+    top: 50%;
+    right: 1rem;
+    font-size: 2rem;
+    font-weight: 900;
+    z-index: 999;
+    color: #fff;
+    padding: 1rem;
+}
+section{
+    position: relative;
+    background-color: #F3F3F3;
+    width: 50vw;
+    margin: 0 4rem;
+    margin-bottom: 4rem;
+    border-radius: 25px 25px 0 0;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .5)
+}
+.corazon{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 10%;
+}
+.fondo{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.contenedor-perfil{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1rem;
+    z-index: 999;
+}
+.perfil{
+    position: absolute;
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+}
+.primer-seccion_contenido{
+    margin-top: 28%;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.primer-seccion_contenido h2{
+    text-transform: uppercase;
+}
+.primer-seccion_contenido p{
+    margin: 1rem 0;
+}
+
+.primer-seccion_contenido input{
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #00669F;
+}
+
+.primer-seccion_contenido input:hover{
+    color: #F3F3F3;
+    background-color: #D1891C;
+    transition: all .2s ease-out;
+}
+footer{
+    background-color: #00669F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    color: #fff;
+    font-size: 1.5rem;
+}
+footer p {
+    align-self: center;
+}
+footer a{
+    width: 20%;
+    display: flex;
+    padding-right: 4rem;
+    justify-content: flex-end;
+}
+footer img{
+    width: 70%;
+}
+@media (min-width:768px){
+    section{
+        width: 40vw;
+        margin: 0 2rem;
+        margin-bottom: 4rem;
+    }
+}
