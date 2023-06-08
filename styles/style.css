@@ -74,6 +74,19 @@ section{
     width: 50%;
     height: auto;
 }
+.perfils{
+    position: relative;
+    border-radius: 50%;
+}
+.perfil-superman{
+    position: absolute;
+    background-image: url('../images/superman.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mostrar-tablet{
+    visibility: hidden;
+}
 .primer-seccion_contenido{
     margin-top: 28%;
     margin-bottom: 1rem;
@@ -126,10 +139,30 @@ footer a{
 footer img{
     width: 70%;
 }
+
+.visible{
+    position: absolute;
+    visibility: hidden;
+}
 @media (min-width:768px){
     section{
         width: 40vw;
         margin: 0 2rem;
         margin-bottom: 4rem;
+    }
+    .visible{
+        position: relative;
+        visibility: initial;
+    }
+    .perfil-superman{
+        background-image: url('../images/superman-tablet.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .mostrar-celular{
+        visibility: hidden;
+    }
+    .mostrar-tablet{
+        visibility: initial;
     }
 }
